@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="iCars_test" customModuleProvider="target">
+            <connections>
+                <outlet property="googleMapsView" destination="v8c-JI-rhc" id="n5E-AY-rPr"/>
+                <outlet property="infoView" destination="Mqf-h3-xVs" id="CCs-o1-65Q"/>
+                <outlet property="mainLabel" destination="EOZ-OG-Sz6" id="kH8-ne-Tt8"/>
+                <outlet property="secondaryLabel" destination="HgJ-b9-50U" id="dpC-Fy-wDs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8c-JI-rhc" customClass="GMSMapView">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfh-d8-pzK">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="09D-OT-ROU"/>
+                        <constraint firstAttribute="height" constant="40" id="G3h-nJ-CRQ"/>
+                    </constraints>
+                    <state key="normal" image="iCars_logo"/>
+                    <connections>
+                        <action selector="menuTapped:" destination="-1" eventType="touchUpInside" id="9IU-Hm-GUi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKQ-dg-iZY">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Gbk-du-p33"/>
+                        <constraint firstAttribute="width" constant="40" id="Wkz-MM-wyM"/>
+                    </constraints>
+                    <state key="normal" image="geolocation_logo"/>
+                    <connections>
+                        <action selector="locationTapped:" destination="-1" eventType="touchUpInside" id="BFm-IP-xhx"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mqf-h3-xVs">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EOZ-OG-Sz6">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HgJ-b9-50U">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HgJ-b9-50U" secondAttribute="bottom" constant="6" id="DOi-Lh-1gh"/>
+                        <constraint firstAttribute="trailing" secondItem="HgJ-b9-50U" secondAttribute="trailing" constant="6" id="Hul-dm-zvD"/>
+                        <constraint firstAttribute="trailing" secondItem="EOZ-OG-Sz6" secondAttribute="trailing" constant="6" id="I1L-7H-j8x"/>
+                        <constraint firstItem="HgJ-b9-50U" firstAttribute="top" secondItem="EOZ-OG-Sz6" secondAttribute="bottom" constant="3" id="Pin-W3-V4c"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="Qbz-AH-Tjq"/>
+                        <constraint firstItem="EOZ-OG-Sz6" firstAttribute="top" secondItem="Mqf-h3-xVs" secondAttribute="top" constant="6" id="U6l-3P-Bga"/>
+                        <constraint firstItem="HgJ-b9-50U" firstAttribute="leading" secondItem="Mqf-h3-xVs" secondAttribute="leading" constant="6" id="u6p-A8-WZb"/>
+                        <constraint firstItem="EOZ-OG-Sz6" firstAttribute="leading" secondItem="Mqf-h3-xVs" secondAttribute="leading" constant="6" id="xai-eF-R7g"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" white="0.0" alpha="0.21570889261744972" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v8c-JI-rhc" secondAttribute="bottom" id="499-wd-2xu"/>
+                <constraint firstAttribute="bottom" secondItem="sKQ-dg-iZY" secondAttribute="bottom" constant="6" id="Cg8-Br-Vw9"/>
+                <constraint firstAttribute="trailing" secondItem="v8c-JI-rhc" secondAttribute="trailing" id="Lqh-99-Ebs"/>
+                <constraint firstItem="Xfh-d8-pzK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="6" id="Ydd-v9-QG8"/>
+                <constraint firstItem="Mqf-h3-xVs" firstAttribute="leading" secondItem="Xfh-d8-pzK" secondAttribute="trailing" constant="6" id="a68-aE-jX4"/>
+                <constraint firstItem="v8c-JI-rhc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aT5-dD-SH5"/>
+                <constraint firstAttribute="trailing" secondItem="sKQ-dg-iZY" secondAttribute="trailing" constant="6" id="dJT-xk-tpg"/>
+                <constraint firstItem="Xfh-d8-pzK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="fQy-J5-NqM"/>
+                <constraint firstItem="Mqf-h3-xVs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="mNc-yr-8CI"/>
+                <constraint firstAttribute="trailing" secondItem="Mqf-h3-xVs" secondAttribute="trailing" constant="6" id="qDw-4t-oV3"/>
+                <constraint firstItem="v8c-JI-rhc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xIv-1M-Xcp"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="geolocation_logo" width="40" height="40"/>
+        <image name="iCars_logo" width="40" height="40"/>
+    </resources>
+</document>

@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3346078C1DC7235E00592FAB /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346078A1DC7235E00592FAB /* SideMenuViewController.swift */; };
+		3346078D1DC7235E00592FAB /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3346078B1DC7235E00592FAB /* SideMenuViewController.xib */; };
+		3346078F1DC7CA6F00592FAB /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346078E1DC7CA6F00592FAB /* FlowManager.swift */; };
+		334607911DC7D8D700592FAB /* DirectionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607901DC7D8D700592FAB /* DirectionsManager.swift */; };
+		334607951DC7E4BA00592FAB /* GoogleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607941DC7E4BA00592FAB /* GoogleAPI.swift */; };
+		334607981DC7F17400592FAB /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607971DC7F17400592FAB /* Route.swift */; };
+		3346079A1DC7F29D00592FAB /* OverviewPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607991DC7F29D00592FAB /* OverviewPolyline.swift */; };
+		3346079C1DC7F32800592FAB /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346079B1DC7F32800592FAB /* Direction.swift */; };
+		3346079E1DC8150B00592FAB /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346079D1DC8150B00592FAB /* Leg.swift */; };
+		334607A11DC81C4400592FAB /* CALayer+BorderUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607A01DC81C4400592FAB /* CALayer+BorderUIColor.swift */; };
+		334607A31DC8221B00592FAB /* Geolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607A21DC8221B00592FAB /* Geolocation.swift */; };
+		334607A51DC825CA00592FAB /* GeolocationResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607A41DC825CA00592FAB /* GeolocationResults.swift */; };
+		334607A81DC830E900592FAB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607A71DC830E900592FAB /* LocationManager.swift */; };
+		334607AA1DC83B9900592FAB /* icars-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 334607A91DC83B9900592FAB /* icars-logo.png */; };
+		334607AD1DC8544B00592FAB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334607AC1DC8544B00592FAB /* Config.swift */; };
 		33B322371DC6EBEC00720044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B322361DC6EBEC00720044 /* AppDelegate.swift */; };
-		33B322391DC6EBEC00720044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B322381DC6EBEC00720044 /* ViewController.swift */; };
-		33B3223C1DC6EBEC00720044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B3223A1DC6EBEC00720044 /* Main.storyboard */; };
 		33B3223E1DC6EBEC00720044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B3223D1DC6EBEC00720044 /* Assets.xcassets */; };
 		33B322411DC6EBEC00720044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B3223F1DC6EBEC00720044 /* LaunchScreen.storyboard */; };
+		33B3224A1DC6EF0600720044 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B322481DC6EF0600720044 /* HomeViewController.swift */; };
+		33B3224B1DC6EF0600720044 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B322491DC6EF0600720044 /* HomeViewController.xib */; };
+		DA43FD62128D96A7251A9260 /* Pods_iCars_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC04DA800F81FCF1DF8950 /* Pods_iCars_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3346078A1DC7235E00592FAB /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuViewController.swift; path = ViewControllers/SideMenuViewController.swift; sourceTree = "<group>"; };
+		3346078B1DC7235E00592FAB /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideMenuViewController.xib; path = ViewControllers/SideMenuViewController.xib; sourceTree = "<group>"; };
+		3346078E1DC7CA6F00592FAB /* FlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowManager.swift; path = Library/Managers/FlowManager.swift; sourceTree = "<group>"; };
+		334607901DC7D8D700592FAB /* DirectionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DirectionsManager.swift; path = Library/Managers/DirectionsManager.swift; sourceTree = "<group>"; };
+		334607941DC7E4BA00592FAB /* GoogleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleAPI.swift; path = Library/API/GoogleAPI.swift; sourceTree = "<group>"; };
+		334607971DC7F17400592FAB /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Library/Model/Route.swift; sourceTree = "<group>"; };
+		334607991DC7F29D00592FAB /* OverviewPolyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverviewPolyline.swift; path = Library/Model/OverviewPolyline.swift; sourceTree = "<group>"; };
+		3346079B1DC7F32800592FAB /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Library/Model/Direction.swift; sourceTree = "<group>"; };
+		3346079D1DC8150B00592FAB /* Leg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Leg.swift; path = Library/Model/Leg.swift; sourceTree = "<group>"; };
+		334607A01DC81C4400592FAB /* CALayer+BorderUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+BorderUIColor.swift"; path = "Library/Extensions/CALayer+BorderUIColor.swift"; sourceTree = "<group>"; };
+		334607A21DC8221B00592FAB /* Geolocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geolocation.swift; path = Library/Model/Geolocation.swift; sourceTree = "<group>"; };
+		334607A41DC825CA00592FAB /* GeolocationResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeolocationResults.swift; path = Library/Model/GeolocationResults.swift; sourceTree = "<group>"; };
+		334607A71DC830E900592FAB /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Library/Managers/LocationManager.swift; sourceTree = "<group>"; };
+		334607A91DC83B9900592FAB /* icars-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icars-logo.png"; sourceTree = "<group>"; };
+		334607AC1DC8544B00592FAB /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Library/Config/Config.swift; sourceTree = "<group>"; };
 		33B322331DC6EBEC00720044 /* iCars-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCars-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B322361DC6EBEC00720044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33B322381DC6EBEC00720044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33B3223B1DC6EBEC00720044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33B3223D1DC6EBEC00720044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33B322401DC6EBEC00720044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33B322421DC6EBEC00720044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B322481DC6EF0600720044 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		33B322491DC6EF0600720044 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/HomeViewController.xib; sourceTree = "<group>"; };
+		38BC04DA800F81FCF1DF8950 /* Pods_iCars_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCars_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7D265588A5FD872B36A9E1 /* Pods-iCars-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCars-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCars-test/Pods-iCars-test.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7798F502CB6DF7EB2ED4EB /* Pods-iCars-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCars-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCars-test/Pods-iCars-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA43FD62128D96A7251A9260 /* Pods_iCars_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		334607921DC7E48300592FAB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				334607931DC7E48900592FAB /* Google */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		334607931DC7E48900592FAB /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				334607941DC7E4BA00592FAB /* GoogleAPI.swift */,
+			);
+			name = Google;
+			sourceTree = "<group>";
+		};
+		334607961DC7EEA400592FAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3346079B1DC7F32800592FAB /* Direction.swift */,
+				334607971DC7F17400592FAB /* Route.swift */,
+				334607991DC7F29D00592FAB /* OverviewPolyline.swift */,
+				3346079D1DC8150B00592FAB /* Leg.swift */,
+				334607A21DC8221B00592FAB /* Geolocation.swift */,
+				334607A41DC825CA00592FAB /* GeolocationResults.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3346079F1DC81BFF00592FAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				334607A01DC81C4400592FAB /* CALayer+BorderUIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		334607AB1DC8539B00592FAB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				334607AC1DC8544B00592FAB /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
 		33B3222A1DC6EBEC00720044 = {
 			isa = PBXGroup;
 			children = (
 				33B322351DC6EBEC00720044 /* iCars-test */,
 				33B322341DC6EBEC00720044 /* Products */,
+				F0FD3B0C222AAA7CCEB92335 /* Pods */,
+				9303DE46A6F9B08EAAA8ABFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +137,64 @@
 			isa = PBXGroup;
 			children = (
 				33B322361DC6EBEC00720044 /* AppDelegate.swift */,
-				33B322381DC6EBEC00720044 /* ViewController.swift */,
-				33B3223A1DC6EBEC00720044 /* Main.storyboard */,
+				33B3224C1DC6EF0C00720044 /* ViewControllers */,
+				33B3224D1DC6F04900720044 /* Library */,
 				33B3223D1DC6EBEC00720044 /* Assets.xcassets */,
 				33B3223F1DC6EBEC00720044 /* LaunchScreen.storyboard */,
+				334607A91DC83B9900592FAB /* icars-logo.png */,
 				33B322421DC6EBEC00720044 /* Info.plist */,
 			);
 			path = "iCars-test";
+			sourceTree = "<group>";
+		};
+		33B3224C1DC6EF0C00720044 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B322481DC6EF0600720044 /* HomeViewController.swift */,
+				33B322491DC6EF0600720044 /* HomeViewController.xib */,
+				3346078A1DC7235E00592FAB /* SideMenuViewController.swift */,
+				3346078B1DC7235E00592FAB /* SideMenuViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		33B3224D1DC6F04900720044 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				334607AB1DC8539B00592FAB /* Config */,
+				3346079F1DC81BFF00592FAB /* Extensions */,
+				334607961DC7EEA400592FAB /* Model */,
+				334607921DC7E48300592FAB /* API */,
+				33B3224E1DC6F05700720044 /* Managers */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		33B3224E1DC6F05700720044 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3346078E1DC7CA6F00592FAB /* FlowManager.swift */,
+				334607901DC7D8D700592FAB /* DirectionsManager.swift */,
+				334607A71DC830E900592FAB /* LocationManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		9303DE46A6F9B08EAAA8ABFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38BC04DA800F81FCF1DF8950 /* Pods_iCars_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FD3B0C222AAA7CCEB92335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7D265588A5FD872B36A9E1 /* Pods-iCars-test.debug.xcconfig */,
+				FD7798F502CB6DF7EB2ED4EB /* Pods-iCars-test.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B322451DC6EBEC00720044 /* Build configuration list for PBXNativeTarget "iCars-test" */;
 			buildPhases = (
+				A70F5686897032C552A04ECF /* [CP] Check Pods Manifest.lock */,
 				33B3222F1DC6EBEC00720044 /* Sources */,
 				33B322301DC6EBEC00720044 /* Frameworks */,
 				33B322311DC6EBEC00720044 /* Resources */,
+				718D2B7DB89BD4E71A4C9F6E /* [CP] Embed Pods Frameworks */,
+				279F8980A7B633BC10575017 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +232,7 @@
 				TargetAttributes = {
 					33B322321DC6EBEC00720044 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,35 +260,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3346078D1DC7235E00592FAB /* SideMenuViewController.xib in Resources */,
+				334607AA1DC83B9900592FAB /* icars-logo.png in Resources */,
 				33B322411DC6EBEC00720044 /* LaunchScreen.storyboard in Resources */,
 				33B3223E1DC6EBEC00720044 /* Assets.xcassets in Resources */,
-				33B3223C1DC6EBEC00720044 /* Main.storyboard in Resources */,
+				33B3224B1DC6EF0600720044 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279F8980A7B633BC10575017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCars-test/Pods-iCars-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718D2B7DB89BD4E71A4C9F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCars-test/Pods-iCars-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70F5686897032C552A04ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33B3222F1DC6EBEC00720044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B322391DC6EBEC00720044 /* ViewController.swift in Sources */,
 				33B322371DC6EBEC00720044 /* AppDelegate.swift in Sources */,
+				334607951DC7E4BA00592FAB /* GoogleAPI.swift in Sources */,
+				334607AD1DC8544B00592FAB /* Config.swift in Sources */,
+				3346078C1DC7235E00592FAB /* SideMenuViewController.swift in Sources */,
+				334607A11DC81C4400592FAB /* CALayer+BorderUIColor.swift in Sources */,
+				334607A31DC8221B00592FAB /* Geolocation.swift in Sources */,
+				334607911DC7D8D700592FAB /* DirectionsManager.swift in Sources */,
+				3346079A1DC7F29D00592FAB /* OverviewPolyline.swift in Sources */,
+				33B3224A1DC6EF0600720044 /* HomeViewController.swift in Sources */,
+				334607981DC7F17400592FAB /* Route.swift in Sources */,
+				3346078F1DC7CA6F00592FAB /* FlowManager.swift in Sources */,
+				334607A81DC830E900592FAB /* LocationManager.swift in Sources */,
+				3346079E1DC8150B00592FAB /* Leg.swift in Sources */,
+				3346079C1DC7F32800592FAB /* Direction.swift in Sources */,
+				334607A51DC825CA00592FAB /* GeolocationResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33B3223A1DC6EBEC00720044 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33B3223B1DC6EBEC00720044 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33B3223F1DC6EBEC00720044 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +448,7 @@
 		};
 		33B322461DC6EBEC00720044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7D265588A5FD872B36A9E1 /* Pods-iCars-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iCars-test/Info.plist";
@@ -268,6 +461,7 @@
 		};
 		33B322471DC6EBEC00720044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7798F502CB6DF7EB2ED4EB /* Pods-iCars-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iCars-test/Info.plist";
@@ -297,6 +491,7 @@
 				33B322471DC6EBEC00720044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
